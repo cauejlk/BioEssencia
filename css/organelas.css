@@ -17,31 +17,76 @@
         sec organelas
 --------------------------*/
 
-/* Container rolável */
-.organelas {
+.container {
+    position: relative;
     display: flex;
-    gap: 15px;
-    padding: 10px;
+    align-items: center;
+    gap: 10px;
 }
 
-/* Itens individuais */
-.organelas div {
+.scroll-container {
+    display: flex;
+    overflow-x: hidden;
+    gap: 15px;
+    padding: 10px;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    border-bottom: 2px solid #ddd;
+    width: calc(100% - 80px);
+    /* Deixa espaço para as setas */
+}
+
+.scroll-container button {
+    font-size: 25px;
     padding: 10px 20px;
-    border: 2px solid #2D6A4F;
+    border: 2px solid #4a6c4a;
+    background-color: white;
+    color: #4a6c4a;
     border-radius: 20px;
-    background-color: #FFFFFF;
-    font-size: 1.04rem;
-    font-weight: bold;
-    text-align: center;
-    color: #2D6A4F;
     cursor: pointer;
+    white-space: nowrap;
     transition: background-color 0.3s, color 0.3s;
 }
 
-/* Efeito ao passar o mouse */
-.organelas div:hover {
-    background-color: #2D6A4F;
-    color: #FFFFFF;
+.scroll-container button:hover {
+    background-color: #4a6c4a;
+    color: white;
+}
+
+.arrow {
+    font-size: 30px;
+    color: #4a6c4a;
+    cursor: pointer;
+    user-select: none;
+    background: none;
+    border: none;
+    padding: 0;
+    transition: transform 0.3s;
+}
+
+.arrow:hover {
+    transform: scale(1.2);
+}
+
+.info-box {
+    margin: 2vw 5vw;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: none;
+}
+
+.info-box h2 {
+    font-size: 3rem;
+    margin: 0 0 10px 0;
+    color: #4a6c4a;
+    text-align: center;
+}
+
+.info-box p {
+    font-size: 1.5rem;
+    color: #333;
 }
 
 /*-------------------------------------

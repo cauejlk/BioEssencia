@@ -32,28 +32,47 @@
             </p>
         </section>
 
-        <section class="organelas">
-            <div class="Mitocondria">Mitocôndria</div>
-            <div class="RER">RER</div>
-            <div class="Lisossomos">Lisossomos</div>
-            <div class="Aparelho de Golgi">Aparelho de Golgi</div>
-            <div class="Citoplasma">Citoplasma</div>
-            <div class="Núcleo">Núcleo</div>
-            <div class="Cloroplasto">Cloroplasto</div>
-            <div class="Ribossomos">Ribossomos</div>
-            <div class="REL">REL</div>
-            <div class="Membrana Plasmática">Membrana Plasmática</div>
-            <div class="Centríolos">Centríolos</div>
-            <div class="Parede Celular">Parede Celular</div>
-            <div class="Vacúolos">Vacúolos</div>
-        </section>
-        <section id="infoBox">
-            <div id="infoBox-Mitocondria">
-                <h2>Mitocôndria</h2>
-                <p>As mitocôndrias são organelas celulares encontradas em grande quantidade com grande atividade metabólica, o número de mitocôndrias varia de uma célula para outra, porém, normalmente, observam-se centenas de mitocôndrias em uma única célula. São organelas compostas por membrana dupla, sendo uma externa e uma interna que apresenta muitas dobras, as chamadas cristas mitocondriais. Dentro da membrana interna há a matriz mitocondrial. 
-                    Na matriz mitocondrial, encontra-se uma grande quantidade de enzimas que atuam na respirator celular, outras proteínas, material genéticoh (DNA, RNA e ribossomos)</p>
+        <div class="container">
+            <div class="scroll-container" id="scrollContainer">
+                <button onclick="showInfo('mitocondria')">Mitocôndria</button>
+                <button onclick="showInfo('rer')">RER</button>
+                <button onclick="showInfo('lisossomos')">Lisossomos</button>
+                <button onclick="showInfo('golgi')">Aparelho de Golgi</button>
+                <button onclick="showInfo('citoplasma')">Citoplasma</button>
+                <button onclick="showInfo('nucleo')">Núcleo</button>
+                <button onclick="showInfo('cloroplasto')">Cloroplasto</button>
+                <button onclick="showInfo('ribossomos')">Ribossomos</button>
+                <button onclick="showInfo('rel')">REL</button>
+                <button onclick="showInfo('peroxissomos')">Peroxissomos</button>
+                <button onclick="showInfo('membrana')">Membrana Plasmática</button>
+                <button onclick="showInfo('centríolos')">Centríolos</button>
+                <button onclick="showInfo('parede')">Parede Celular</button>
+                <button onclick="showInfo('vacuolos')">Vacuolos</button>
             </div>
-        </section>
+            <button class="arrow" onclick="scrollRight()">&#8594;</button>
+        </div>
+    
+        <div id="info" class="info-box">
+            <h2 id="info-titulo"></h2>
+            <p id="info-conteudo"></p>
+        </div>
+    
+        <script>
+            
+            // Controle de scroll
+            const scrollContainer = document.getElementById('scrollContainer');
+    
+            function scrollRight() {
+                if (
+                    scrollContainer.scrollLeft + scrollContainer.offsetWidth >=
+                    scrollContainer.scrollWidth
+                ) {
+                    scrollContainer.scrollLeft = 0; // Volta para o início
+                } else {
+                    scrollContainer.scrollBy({ left: 900, behavior: 'smooth' });
+                }
+            }
+        </script>
     </main>
 
     <footer>
