@@ -1,0 +1,97 @@
+:root {
+    --roxoEscuro: #5A189A;
+    --lilas: #C77DFF;
+    --verde: #2D6A4F;
+    --cinza: #3C3C3C;
+    --lilasClaro: #E0AAFF;
+}
+
+
+/*-------------------------------
+    section TÍTULO
+---------------------------------*/
+section.titulo {
+    text-align: center;
+    padding: 20vw 0 30vw 0;
+}
+
+section.titulo h1 {
+    color: var(--roxoEscuro);
+    font-size: 5rem;
+    margin: 0;
+}
+
+/*-------------------------------
+    section CITOLOGIA
+---------------------------------*/
+section div.citologia {
+    text-align: center;
+    margin: 0 20vw 0 20vw;
+    border: #2D6A4F 3px solid;
+    border-radius: 5px;
+    padding: 3vw 5vw 3vw 5vw;
+}
+
+section div.citologia h2 {
+    color: var(--roxoEscuro);
+    font-size: 4rem;
+    margin-bottom: 4vw;
+}
+
+section div.citologia p{
+    text-align: left;
+    font-size: 2.5rem
+}
+
+/*--------------------------------------
+    section CONTEUDOS
+-------------------------------------*/
+section.conteudos{
+    padding: 13vw 5vw 10vw 5vw;
+}
+
+section.conteudos h2{
+    color: var(--roxoEscuro);
+    font-size: 4.5rem;
+    padding: 0 0 2vw 4vw;
+}
+
+section.conteudos div{
+    border-radius: 2px;
+    border-top: var(--verde) 3px solid;
+    margin-top: 2vw;
+}
+
+section.conteudos div h3{
+    padding: 3vw 0 0 0 ;
+    font-size: 2.5rem;
+}
+
+section.conteudos div p{
+    font-size: 2.1rem;
+    padding: 1vw 20vw 1vw 20vw;
+}
+
+section.conteudos div a{
+    border:  var(--cinza) 2.5px solid;
+    font-size: 1.4rem;
+    padding: 8px 22px 8px 22px;
+    margin: 1vw 20.5vw 4vw;
+}
+
+/*-----------------------------
+            footer
+-------------------------------*/
+footer {
+    background-color: #2D6A4F;
+    color: white;
+    position: relative;
+    text-align: center;
+    padding: 5vw 0 5vw 0
+}
+
+footer p {
+    padding: 2.5vw 0 2.5vw 0 ;
+    line-height: 1.7rem;
+    font-size: 1.2rem;
+}

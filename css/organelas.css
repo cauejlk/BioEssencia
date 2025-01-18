@@ -1,0 +1,69 @@
+/*--------------------------------
+            sec inicio
+----------------------------------*/
+.inicio h1{
+    text-align: center;
+    font-size: 5rem;
+    padding: 5vw 20vw 0 0;
+}
+
+.inicio p{
+    font-size: 2rem;
+    margin: 1vw 25vw 7vw 30vw;
+    line-height: 2.5vw;
+}
+
+/*-----------------------
+        sec organelas
+--------------------------*/
+
+/* Container rolável */
+.organelas {
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+}
+
+/* Itens individuais */
+.organelas div {
+    padding: 10px 20px;
+    border: 2px solid #2D6A4F;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    font-size: 1.04rem;
+    font-weight: bold;
+    text-align: center;
+    color: #2D6A4F;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Efeito ao passar o mouse */
+.organelas div:hover {
+    background-color: #2D6A4F;
+    color: #FFFFFF;
+}
+
+/*-------------------------------------
+
+---------------------------------------*/
+
+
+
+/*-------------------------------
+            footer
+--------------------------------*/
+
+footer {
+    background-color: #2D6A4F;
+    color: white;
+    position: relative;
+    text-align: center;
+    padding: 0.5vw 0 0.5vw 0
+}
+
+footer p {
+    padding: 2vw 0 2vw 0;
+    line-height: 1.7rem;
+    font-size: 1.2rem;
+}
