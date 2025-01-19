@@ -178,3 +178,21 @@ header nav ul li img {
     width: auto;
     display: block;
 }
+
+/*---------------------------
+    section FOOTER
+-----------------------------*/
+
+footer {
+    background-color: #2D6A4F;
+    color: white;
+    position: relative;
+    text-align: center;
+    padding: 0.5vw 0 0.5vw 0
+}
+
+footer p {
+    padding: 2vw 0 2vw 0;
+    line-height: 1.7rem;
+    font-size: 1.2rem;
+}
