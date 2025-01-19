@@ -1,3 +1,11 @@
+:root {
+    --roxoEscuro: #5A189A;
+    --lilas: #C77DFF;
+    --verde: #2D6A4F;
+    --cinza: #3C3C3C;
+    --lilasClaro: #E0AAFF;
+}
+
 /*--------------------------------
             sec inicio
 ----------------------------------*/
@@ -92,23 +100,3 @@
 /*-------------------------------------
 
 ---------------------------------------*/
-
-
-
-/*-------------------------------
-            footer
---------------------------------*/
-
-footer {
-    background-color: #2D6A4F;
-    color: white;
-    position: relative;
-    text-align: center;
-    padding: 0.5vw 0 0.5vw 0
-}
-
-footer p {
-    padding: 2vw 0 2vw 0;
-    line-height: 1.7rem;
-    font-size: 1.2rem;
-}
