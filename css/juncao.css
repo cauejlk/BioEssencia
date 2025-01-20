@@ -13,6 +13,7 @@
 ----------------------------------------*/
 
 .juncao{
+    padding: 6vw 0 7vw 0;
     text-align: center;
 }
 
@@ -21,7 +22,8 @@
 }
 
 .juncao div p{
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+    margin: 1vw 35vw;
 }
 
 .juncao div{
@@ -51,4 +53,62 @@
 .desmossomos p:last-of-type{
     font-size: 2.3rem;
     margin: 1vw 10vw 0 35vw;
+}
+
+/*--------------------------------
+        .Juncoes aderentes
+----------------------------------*/
+
+.juncoes-aderentes{
+    background-color: var(--verde);
+    padding: 5vw 0;
+}
+
+.juncoes-aderentes h2{
+    font-size: 5rem;
+}
+
+.juncoes-aderentes h2:first-of-type{
+    margin: 0 0 0 15vw;
+}
+
+.juncoes-aderentes h2:last-of-type{
+    text-align: end;
+    margin: 0 15vw 0 0;
+}
+
+.juncoes-aderentes p{
+    font-size: 1.8rem;
+    margin: 1vw 25vw;
+}
+
+/*--------------------------------
+        .Juncoes comunicantes
+----------------------------------*/
+
+.juncoes-comunicantes{
+    background-color: var(--verdeEscuro);
+    padding: 8vw;
+}
+
+.juncoes-comunicantes #background{
+    background-color: #EDD48E;
+    padding: 20vw 5vw 5vw 5vw;
+    text-align: center;
+    align-items: center;
+    box-shadow: 4px 4px 30px black;
+}
+
+.juncoes-comunicantes #background #textos{
+    display: flex;
+    text-align: left;
+    padding: 1vw 0 0 10vw;
+}
+
+.juncoes-comunicantes #background #textos p{
+    font-size: 2rem;
+    padding: 0 7vw 0 0;
+}
+.juncoes-comunicantes h2{
+    font-size: 6rem;
 }
