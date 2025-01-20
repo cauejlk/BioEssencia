@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/organelas.css">
-    <script src="js/organelas.js"></script>    
+    <script src="js/organelas.js"></script>
     <title>BioEssência</title>
 </head>
 
@@ -28,11 +28,15 @@
     <main>
         <section class="inicio">
             <h1>Organelas Celulares</h1>
-            <p>As organelas celulares se encontram no citoplasma e são componentes das células que realizam atividades essenciais para as células. Suas estruturas são compostas por membranas internas com formas e funções diferentes, algumas organelas são exclusivas de células vegetais ou animais.
+            <p>As organelas celulares se encontram no citoplasma e são componentes das células que realizam atividades
+                essenciais para as células. Suas estruturas são compostas por membranas internas com formas e funções
+                diferentes, algumas organelas são exclusivas de células vegetais ou animais.
             </p>
         </section>
 
         <div class="container">
+            <button id="botaoFlechaEsquerda" style="margin-left: 1vw;" class="arrow"
+                onclick="scrollLeftHandler()">&#8592;</button>
             <div class="scroll-container" id="scrollContainer">
                 <button onclick="showInfo('mitocondria')">Mitocôndria</button>
                 <button onclick="showInfo('rer')">RER</button>
@@ -49,29 +53,56 @@
                 <button onclick="showInfo('parede')">Parede Celular</button>
                 <button onclick="showInfo('vacuolos')">Vacuolos</button>
             </div>
-            <button class="arrow" onclick="scrollRight()">&#8594;</button>
+            <button id="botaoFlechaDireita" style="margin-right: 1vw;" class="arrow"
+                onclick="scrollRightHandler()">&#8594;</button>
         </div>
-    
+
+
+
         <div id="info" class="info-box">
             <h2 id="info-titulo"></h2>
             <p id="info-conteudo"></p>
         </div>
-    
+
         <script>
-            
-            // Controle de scroll
-            const scrollContainer = document.getElementById('scrollContainer');
-    
-            function scrollRight() {
-                if (
-                    scrollContainer.scrollLeft + scrollContainer.offsetWidth >=
-                    scrollContainer.scrollWidth
-                ) {
-                    scrollContainer.scrollLeft = 0; // Volta para o início
-                } else {
-                    scrollContainer.scrollBy({ left: 900, behavior: 'smooth' });
-                }
-            }
+           const scrollContainer = document.getElementById('scrollContainer');
+let botaoEsquerdo = document.getElementById('botaoFlechaEsquerda');
+let botaoDireito = document.getElementById('botaoFlechaDireita');
+botaoEsquerdo.classList.add('arrowEscondida');
+
+function scrollLeftHandler() {
+    scrollContainer.scrollBy({ left: -700, behavior: 'smooth' });
+    botaoDireito.classList.remove('arrowEscondida');
+    setTimeout(verificaSeta, 540);
+}
+
+function scrollRightHandler() {
+    scrollContainer.scrollBy({ left: 700, behavior: 'smooth' });
+    botaoEsquerdo.classList.remove('arrowEscondida');
+    setTimeout(verificaSeta, 540);
+}
+
+function verificaSeta() {
+    // Maximum scrollable distance
+    const maxScrollLeft = scrollContainer.scrollWidth - scrollContainer.clientWidth;
+
+    // Check if at the start of the scroll
+    if (scrollContainer.scrollLeft === 0) {
+        botaoEsquerdo.classList.add('arrowEscondida');
+    } else {
+        botaoEsquerdo.classList.remove('arrowEscondida');
+    }
+
+    // Check if at the end of the scroll
+    if (scrollContainer.scrollLeft >= maxScrollLeft) {
+        botaoDireito.classList.add('arrowEscondida');
+    } else {
+        botaoDireito.classList.remove('arrowEscondida');
+    }
+}
+
+
+
         </script>
     </main>
 
