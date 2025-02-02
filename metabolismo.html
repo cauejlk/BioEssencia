@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pr-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,13 +8,14 @@
     <link rel="stylesheet" href="css/reset.css">
     <title>BioEssência</title>
 </head>
+
 <body>
     <header>
         <nav>
             <ul>
                 <li><a href="Células.html">Células</a></li>
                 <li><a href="organelas.html">Organelas</a></li>
-                <li><a href="juncao.html">Juncão<br>Celular</a></li>
+                <li><a href="juncaoCelular.html">Juncão<br>Celular</a></li>
                 <li><a href="PagInicial.html"><img src="src/LOGO.png" alt="logo" height="90px" width="auto"></a></li>
                 <li><a href="divisao.html">Divisão<br>Celular</a></li>
                 <li><a href="metabolismo.html">Metabolismo<br>energético</a></li>
@@ -21,16 +23,191 @@
             </ul>
         </nav>
     </header>
-    
+
     <main>
+        <section class="titulo">
+            <h1>Metabolismo Energético</h1>
+            <p>O metabolismo energético é o conjunto de processos bioquímicos responsáveis pela obtenção, transformação
+                e uso da energia necessária para a sobrevivência dos organismos vivos. Sem ele, funções vitais como o
+                crescimento, a movimentação e a reprodução não seriam possíveis.</p>
+            <div id="tags">
+                <p><a href="#importancia">Importância</a></p>
+                <p><a href="#metabolismo">Metabolismo</a></p>
+                <p><a href="#energia">Energia</a></p>
+                <p><a href="#processos">Processos</a></p>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="ondas">
+                <path fill="#E0AAFF" fill-opacity="1"
+                    d="M0,224L30,218.7C60,213,120,203,180,186.7C240,171,300,149,360,154.7C420,160,480,192,540,202.7C600,213,660,203,720,181.3C780,160,840,128,900,122.7C960,117,1020,139,1080,144C1140,149,1200,139,1260,138.7C1320,139,1380,149,1410,154.7L1440,160L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z">
+                </path>
+            </svg>
+        </section>
+
+        <section class="quadros">
+            <div class="quadro" id="importancia">
+                <h2>Importância do Metabolismo Energético</h2>
+                <div class="textos">
+                    <p>O metabolismo energético é crucial para diversas funções vitais, incluindo:</p>
+                    <ul>
+                        <li>Crescimento e desenvolvimento celular.</li>
+                        <li>Movimento e contração muscular.</li>
+                        <li>Manutenção da temperatura corporal.</li>
+                        <li>Síntese de proteínas, lipídios e ácidos nucleicos.</li>
+                        <li>Comunicação entre células e resposta a estímulos ambientais.</li>
+                    </ul>
+                    <p>Sem esses processos, a vida como conhecemos não existiria.</p>
+                </div>
+            </div>
+
+            <div class="quadro" id="metabolismo">
+                <h2>O Que é Metabolismo?</h2>
+                <div class="textos">
+                    <p>O metabolismo é a soma de todas as reações químicas que ocorrem dentro das células. Ele pode ser
+                        dividido em duas grandes categorias:
+                    </p>
+                    <ul>
+                        <li>Catabolismo<span class="catabolismo" style="padding-bottom: 2vw;">: Conjunto de processos
+                                que quebram moléculas complexas, como carboidratos e gorduras, em substâncias mais
+                                simples, liberando energia.</span>
+                            <button id="flechaDireita-catabolismo" class="arrow">&#8594;</button>
+                            <button id="flechaEsquerda-catabolismo" class="arrow">&#8592;</button>
+                        </li>
+                        <li>
+                            Anabolismo<span class="anabolismo">: Conjunto de reações químicas que utilizam energia para
+                                construir moléculas complexas, como proteínas e DNA, essenciais para o funcionamento
+                                celular.</span>
+                            <button id="flechaDireita-anabolismo" class="arrow">&#8594;</button>
+                            <button id="flechaEsquerda-anabolismo" class="arrow">&#8592;</button>
+                        </li>
+                    </ul>
+                    <p>
+                        Esses dois processos são complementares e garantem que a célula tenha energia suficiente para
+                        realizar suas funções essenciais.
+                    </p>
+                </div>
+            </div>
+
+            <div class="quadro" id="energia">
+                <h2>Como a Energia é Obtida?</h2>
+                <div class="textos">
+                    <p>Os organismos obtêm energia de diferentes formas, dependendo de sua nutrição e metabolismo:
+                    </p>
+                    <ul>
+                        <li>
+                            Autótrofos<span class="autotrofos">: Seres que produzem seu próprio alimento, como plantas e
+                                algas, utilizando energia da luz solar (fotossíntese) ou reações químicas
+                                (quimiossíntese).</span>
+                            <button id="flechaDireita-autotrofos" class="arrow">&#8594;</button>
+                            <button id="flechaEsquerda-autotrofos" class="arrow">&#8592;</button>
+                        </li>
+                        <li>
+                            Heterótrofos<span class="heterotrofos">: Seres que obtêm energia a partir da ingestão de
+                                matéria orgânica, como os animais e fungos.</span>
+                            <button id="flechaDireita-heterotrofos" class="arrow">&#8594;</button>
+                            <button id="flechaEsquerda-heterotrofos" class="arrow">&#8592;</button>
+                        </li>
+                    </ul>
+                    A principal molécula energética utilizada pelas células é o ATP (Adenosina Trifosfato), que
+                    funciona
+                    como uma "bateria recarregável", armazenando e liberando energia conforme necessário.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="processos" id="processos">
+            <h2>Processos do Metabolismo Energético</h2>
+
+            <div class="divGrande">
+                <div id="divMedio">
+                    <h3>Respiração Celular</h3>
+                    <div id="divPequena">
+                        <p>
+                            A respiração celular é o processo pelo qual a glicose e outros compostos orgânicos são
+                            quebrados para a produção de ATP. Esse processo ocorre em três etapas principais.</p>
+                        <p>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Etapa</th>
+                                    <th>Local</th>
+                                    <th>Produtos Gerados</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Glicólise</td>
+                                    <td>Citoplasma</td>
+                                    <td>2 ATP, 2 NADH, 2 Piruvatos</td>
+                                </tr>
+                                <tr>
+                                    <td>Ciclo de Krebs</td>
+                                    <td>Mitocôndria</td>
+                                    <td>CO₂, NADH, FADH₂, 2 ATP</td>
+                                </tr>
+                                <tr>
+                                    <td>Cadeia Transportadora de Elétrons</td>
+                                    <td>Mitocôndria</td>
+                                    <td>Cerca de 34 ATP, H₂O</td>
+                                </tr>
+                            </tbody>
+                        </table >
+                        <p>
+                            A respiração celular pode ser aeróbica, quando ocorre na presença de oxigênio, ou anaeróbica
+                            quando o oxigênio não está disponível.
+                        </p>
+                    </div>
+                </div>
+                <div id="divMedio">
+                    <h3>Fermentação</h3>
+                    <div id="divPequena1">
+                        <p>Quando há falta de oxigênio, algumas células utilizam a fermentação para produzir energia.
+                            Esse processo é menos eficiente do que a respiração celular, mas ainda permite a produção de
+                            ATP.
+                        </p>
+                        <p>
+                            Os principais tipos de fermentação são:
+                        </p>
+                        <ul>
+                            <li>
+                                Fermentação lática: Ocorre em músculos durante exercícios
+                                intensos e em bactérias. Produz ácido lático, causando fadiga muscular.
+                            </li>
+                            <li>
+                                Fermentação alcoólica : Realizada por leveduras e algumas bactérias. Produz etanol e
+                                dióxido de carbono, sendo utilizada na fabricação de bebidas alcoólicas e pães.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="divMedio1">
+                <h3>Fotossíntese</h3>
+                <div id="divPequena3">
+                    <p>
+                        A fotossíntese é o processo realizado por plantas, algas e cianobactérias para converter a luz
+                        solar em energia química. Esse processo ocorre nos cloroplastos e é dividido em duas fases:
+                    </p>
+                    <ul>
+                        <li>Fase Clara: Ocorre nos tilacoides e gera ATP e NADPH, utilizando energia da luz.</li>
+                        <li>Fase Escura (Ciclo de Calvin): Ocorre no estroma e converte CO₂ em glicose, usando os
+                            produtos da fase clara.</li>
+                    </ul>
+                    <p>A fotossíntese é essencial para a produção de oxigênio e para a manutenção da vida na Terra.</p>
+                </div>
+            </div>
+        </section>
 
     </main>
-
+    <script src="js/metabolismo.js"></script>
     <footer>
         <p>Cauê J. L. Kreutz<br>
-        Gabriela Senderski<br>
-        Ian M. Veiga<br>
-        Copyright &copy; 2023. BioEssência. Todos os direitos reservados</p>
+            Gabriela Senderski<br>
+            Ian M. Veiga<br>
+            Copyright &copy; 2023. BioEssência. Todos os direitos reservados</p>
     </footer>
 </body>
+
 </html>

@@ -5,3 +5,213 @@
     --cinza: #3C3C3C;
     --lilasClaro: #E0AAFF;
 }
+
+/*-------------------------------------------
+            SEC TITULO 
+---------------------------------------------*/
+
+.titulo {
+    text-align: center;
+}
+
+.titulo h1 {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 5vw 0 2vw 0;
+    font-size: 4rem;
+    font-style: italic;
+}
+
+.titulo p {
+    margin: 2vw 13vw;
+    font-size: 1.5rem;
+}
+
+.titulo #tags {
+    display: flex;
+    justify-content: center;
+    margin: 5vw 0 2.6vw 0;
+}
+
+.titulo #tags p {
+    font-size: 1.2rem;
+    margin: 0 10px;
+    border: 1px solid rgb(19, 19, 19);
+    border-radius: 10px;
+    padding: 3px 10px;
+}
+
+.titulo #tags p a {
+    color: black;
+}
+
+.titulo #tags p:hover {
+    background-color: #f1ecc5;
+}
+
+/*------------------------------------------
+            SEC QUADROS
+--------------------------------------------*/
+
+.quadros h2 {
+    text-align: center;
+}
+
+.quadros div.quadro {
+    border: 1px solid black;
+    border-radius: 1vw;
+    margin: 3vw 25vw;
+    padding: 0 0 2vw 0;
+}
+
+.quadros div h2 {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    margin: 0.2px 0px 0.1px 0.3px;
+    border-bottom: 1px solid black;
+    font-size: 1.5rem;
+    padding: 1vw 0;
+    font-weight: bold;
+}
+
+.quadros div#importancia h2 {
+    background-color: white;
+}
+
+.quadros div#metabolismo h2 {
+    background-color: var(--lilasClaro);
+}
+
+.quadros div#energia h2 {
+    background-color: var(--lilas);
+}
+
+.quadros div.quadro div.textos {
+    font-size: 1.3rem;
+    margin: 3vw 7vw 0 7vw;
+}
+
+.quadros div.quadro div.textos ul {
+    text-align: start;
+    list-style: circle;
+    margin: 10px 3vw;
+}
+
+
+/*============ Catabolismo e Anabolismo ============*/
+
+.arrow {
+    transform: scale(1.25);
+    border: 0;
+    background-color: #F4F1DE;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.arrow:hover {
+    transform: scale(1.45);
+}
+
+/*------------------------------------------------------------
+                    SEC PROCESSOS
+--------------------------------------------------------------*/
+
+.processos {
+    background-color: #4f291e;
+    padding: 0 0 6vw 0;
+}
+
+.processos h2 {
+    text-align: center;
+    font-size: 4rem;
+    color: #f1ecc5;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 5vw 0;
+}
+
+.processos .divGrande {
+    display: flex;
+    margin: 0 10vw;
+    gap: 10vw;
+}
+
+.processos .divGrande #divMedio h3,
+.processos #divMedio1 h3 {
+    font-size: 1.5rem;
+    color: #d95130;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.processos #divMedio {
+    border: 3px solid #d95130;
+    background-color: #e4d9ba;
+    box-shadow: -9px 10px 0 0 #d95130;
+    border-radius: 24px;
+    padding: 1rem;
+    transition: box-shadow .2s ease-in;
+}
+
+.processos #divMedio1 {
+    border: 3px solid #d95130;
+    background-color: #e4d9ba;
+    box-shadow: -9px 10px 0 0 #d95130;
+    border-radius: 24px;
+    padding: 1rem;
+    transition: box-shadow .2s ease-in;
+    margin: 5vw 30vw 0 30vw;
+}
+
+.processos .divGrande #divPequena {
+    background-color: rgb(224, 149, 174);
+    border-radius: 10px;
+    color: #4f291e;
+    padding: 1vw 2vw;
+    font-size: 1.2rem;
+}
+
+.processos .divGrande #divPequena1 {
+    background-color: #46a19e;
+    border-radius: 10px;
+    border-radius: 10px;
+    color: #4f291e;
+    padding: 1vw 2vw;
+    font-size: 1.2rem;
+}
+
+.processos #divPequena3 {
+    background-color: #deae0e;
+    border-radius: 10px;
+    color: #4f291e;
+    padding: 1vw 2vw;
+    font-size: 1.2rem;
+}
+
+
+
+
+.table {
+    font-size: 1.051rem;
+    min-width: 600px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 1vw;
+}
+
+.table thead tr {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: left;
+}
+
+.table th,
+.table td {
+    padding: 5px 15px;
+}
+
+.table tbody tr {
+    border-bottom: 1px solid #000000;
+}
+
+.table tbody tr:last-of-type {
+    border-bottom: 2px solid #343a40;
+}
