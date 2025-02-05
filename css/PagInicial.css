@@ -12,13 +12,20 @@
 ---------------------------------*/
 section.titulo {
     text-align: center;
-    padding: 20vw 0 30vw 0;
+    padding: 20vw 0 10vw 0;
 }
 
 section.titulo h1 {
     color: var(--roxoEscuro);
     font-size: 5rem;
     margin: 0;
+}
+
+section.titulo img{
+    position: relative;
+    margin: -25.5vw 0 0 0;
+    height: 50vw;
+    width: 100%;
 }
 
 /*-------------------------------
