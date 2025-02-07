@@ -5,27 +5,31 @@
 .inicio {
     display: flex;
     align-items: center;
-    padding: 15vw 0 15vw 20vw;
+    justify-content: center;
+    padding: 15vw 0 15vw 0;
+}
+
+.titulo{
+    margin-left:  1vw; 
 }
 
 .inicio h1 {
-    padding: 0 20vw 0 0;
     text-align: center;
+    margin-bottom: 3vw;
 }
 
-.inicio p {
-    padding: 2vw 10vw 0 0;
+.inicio ul{
+    margin-left: 2vw;
 }
 
 .inicio img {
-    width: 250%;
-    height: auto;
-    padding: 0 4vw 0 0;
+    width:40vw;
 }
 
-.inicio div ul {
-    padding: 0 0 0 2vw;
+.inicio div{
+    width: 40%;
 }
+
 
 .inicio div ul li {
     list-style: disc;
@@ -48,8 +52,7 @@
 .cards-container {
     display: flex;
     justify-content: center;
-    gap: 10vw;
-    flex-wrap: wrap;
+    gap: 8vw;
 }
 
 .card {

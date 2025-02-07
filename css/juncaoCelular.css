@@ -8,7 +8,7 @@
 }
 
 .juncao div p {
-    margin: 1vw 35vw;
+    margin: 1vw 20vw;
 }
 
 .juncao div {
@@ -79,9 +79,14 @@
 .juncoes-comunicantes #background #textos {
     display: flex;
     text-align: left;
-    padding: 1vw 0 0 10vw;
+    gap: 5vw;
+    margin-top: 4vw;
 }
 
-.juncoes-comunicantes #background #textos p {
-    padding: 3vw 7vw 0 0;
+.juncoes-comunicantes #background #textos p{
+    width: 50%;
+}
+
+.juncoes-comunicantes #background #textos p:last-child{
+    margin-top: 1vw;
 }

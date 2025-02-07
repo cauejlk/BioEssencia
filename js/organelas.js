@@ -32,7 +32,7 @@ const infoData = {
                         </div>
         
                         <details>
-                            <Summary class="organelas">Quais os tipos de respiração celular?</Summary>
+                            <summary class="organelas">Quais os tipos de respiração celular?</summary>
         
                             <p><b>Processo Aeróbico:</b> A respiração aeróbica é o processo pelo qual as células convertem
                             nutrientes, especialmente a glicose, em energia na presença de oxigênio. É o método
@@ -46,13 +46,13 @@ const infoData = {
                             por fissão binária, assim como organismos procariontes.</p>
         
                             <p><b>Como ocorrem os processos:</b></p>
-                            <p>
+                        <div class="divIframes">     <p>
                                 <iframe width="560" height="315" src="https://www.youtube.com/embed/7_fcQbiG4Ho?si=4aAYiIuqeOcaCGwT"
                                     title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
                                     encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
                                     allowfullscreen>
                                 </iframe>
-                            </p>
+                            </p> </div>
                         </details>
                     `
     },
@@ -92,7 +92,9 @@ const infoData = {
                                         quebradas, originando partes menores, como os ácidos graxos. Essas moléculas pequenas
                                         saem do lisossomo e são aproveitadas no citoplasma da célula. </p>
         
-                                    <details>
+                                   
+        <div class="divIframes">
+                                    <p> <iframe width="560" height="315" src="https://www.youtube.com/embed/6PEwEM3pSZA?si=a6fDTR1MDaeScuDL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p> </div> <details>
                                         <summary class="organelas">O que é endocitose?</summary>
                                         <p>Endocitose é um processo que ocorre nas células e tem por objetivo trazer para o
                                             interior dessa estrutura substâncias por meio da absorção na membrana
@@ -116,8 +118,6 @@ const infoData = {
         
                                             
                                     </details>
-        <div class="divIframes">
-                                    <p> <iframe width="560" height="315" src="https://www.youtube.com/embed/6PEwEM3pSZA?si=a6fDTR1MDaeScuDL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p> </div>
         `
     },
 
