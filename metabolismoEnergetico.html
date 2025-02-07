@@ -1,25 +1,28 @@
 <!DOCTYPE html>
-<html lang="pr-BR">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/metabolismo.css">
+    <link rel="stylesheet" href="css/metabolismoEnergetico.css">
     <link rel="stylesheet" href="css/reset.css">
-    <title>BioEssência</title>
+    <title>BioEssência - Metabolismo Energético</title>
+    <link rel="icon" type="image/png" href="src/logo.png">
+    <link rel="stylesheet" href="css/cores.css">
 </head>
 
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="Células.html">Células</a></li>
-                <li><a href="organelas.html">Organelas</a></li>
-                <li><a href="juncaoCelular.html">Juncão<br>Celular</a></li>
-                <li><a href="PagInicial.html"><img src="src/LOGO.png" alt="logo" height="90px" width="auto"></a></li>
-                <li><a href="divisao.html">Divisão<br>Celular</a></li>
-                <li><a href="metabolismo.html">Metabolismo<br>energético</a></li>
-                <li><a href="referencia.html">Referências</a></li>
+                <li><a href="celulas.html">Células</a></li>
+                <li><a href="metabolismoEnergetico.html">Metabolismo<br>Energético</a></li>
+
+                <li><a href="juncaoCelular.html">Junção Celular</a></li>
+                <li><a href="index.html"><img src="src/logo.png" alt="Logo do site."></a></li>
+                <li><a href="divisaoCelular.html">Divisão Celular</a></li>
+                <li><a href="organelasCelulares.html">Organelas</a></li>
+                <li><a href="#">Referências</a></li>
             </ul>
         </nav>
     </header>
@@ -27,7 +30,8 @@
     <main>
         <section class="titulo">
             <h1>Metabolismo Energético</h1>
-            <p>O metabolismo energético é o conjunto de processos bioquímicos responsáveis pela obtenção, transformação
+            <p class="introducao">O metabolismo energético é o conjunto de processos bioquímicos responsáveis pela
+                obtenção, transformação
                 e uso da energia necessária para a sobrevivência dos organismos vivos. Sem ele, funções vitais como o
                 crescimento, a movimentação e a reprodução não seriam possíveis.</p>
             <div id="tags">
@@ -66,14 +70,14 @@
                         dividido em duas grandes categorias:
                     </p>
                     <ul>
-                        <li>Catabolismo<span class="catabolismo" style="padding-bottom: 2vw;">: Conjunto de processos
+                        <li> <p>Catabolismo:</p><span class="catabolismo" style="padding-bottom: 2vw;">É o conjunto de processos
                                 que quebram moléculas complexas, como carboidratos e gorduras, em substâncias mais
                                 simples, liberando energia.</span>
                             <button id="flechaDireita-catabolismo" class="arrow">&#8594;</button>
                             <button id="flechaEsquerda-catabolismo" class="arrow">&#8592;</button>
                         </li>
                         <li>
-                            Anabolismo<span class="anabolismo">: Conjunto de reações químicas que utilizam energia para
+                            <p>Anabolismo:</p><span class="anabolismo">É o conjunto de reações químicas que utilizam energia para
                                 construir moléculas complexas, como proteínas e DNA, essenciais para o funcionamento
                                 celular.</span>
                             <button id="flechaDireita-anabolismo" class="arrow">&#8594;</button>
@@ -94,22 +98,23 @@
                     </p>
                     <ul>
                         <li>
-                            Autótrofos<span class="autotrofos">: Seres que produzem seu próprio alimento, como plantas e
+                            <p> Autótrofos: </p><span class="autotrofos">São seres que produzem seu próprio alimento, como plantas e
                                 algas, utilizando energia da luz solar (fotossíntese) ou reações químicas
                                 (quimiossíntese).</span>
                             <button id="flechaDireita-autotrofos" class="arrow">&#8594;</button>
                             <button id="flechaEsquerda-autotrofos" class="arrow">&#8592;</button>
                         </li>
                         <li>
-                            Heterótrofos<span class="heterotrofos">: Seres que obtêm energia a partir da ingestão de
+                            <p>  Heterótrofos:</p><span class="heterotrofos"> São seres que obtêm energia a partir da ingestão de
                                 matéria orgânica, como os animais e fungos.</span>
                             <button id="flechaDireita-heterotrofos" class="arrow">&#8594;</button>
                             <button id="flechaEsquerda-heterotrofos" class="arrow">&#8592;</button>
                         </li>
                     </ul>
-                    A principal molécula energética utilizada pelas células é o ATP (Adenosina Trifosfato), que
-                    funciona
-                    como uma "bateria recarregável", armazenando e liberando energia conforme necessário.
+                    <p>
+                        A principal molécula energética utilizada pelas células é o ATP (Adenosina Trifosfato), que
+                        funciona
+                        como uma "bateria recarregável", armazenando e liberando energia conforme necessário.
                     </p>
                 </div>
             </div>
@@ -153,7 +158,7 @@
                                     <td>Cerca de 34 ATP, H₂O</td>
                                 </tr>
                             </tbody>
-                        </table >
+                        </table>
                         <p>
                             A respiração celular pode ser aeróbica, quando ocorre na presença de oxigênio, ou anaeróbica
                             quando o oxigênio não está disponível.

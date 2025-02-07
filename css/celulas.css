@@ -1,0 +1,94 @@
+/*----------------------------
+            inicio
+-------------------------------*/
+
+.inicio{
+    display: flex;
+    align-items: center;
+    padding: 15vw 0 15vw 20vw;
+}
+
+.inicio h1{
+    padding: 0 20vw 0 0;
+    text-align:center;
+    font-size: 4vw;
+}
+
+.inicio p{
+    padding: 2vw 10vw 0 0;
+}
+
+.inicio img{
+    width:250%; 
+    height: auto;
+    padding: 0 4vw 0 0;
+}
+
+.inicio div ul{
+    padding: 0 0 0 2vw;
+}
+.inicio div ul li{
+    list-style: disc;
+    padding: 1vw 0 0 0;
+}
+
+.inicio div ul li#eucarionte{
+    color: rgb(45, 106, 79);
+}
+
+.inicio div ul li#procarionte{
+    color: rgb(101, 172, 146);
+}
+
+.carac h2{
+    text-align: center;
+    padding: 0 0 3vw 0;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+}
+
+.card {
+    position: relative;
+    padding: 3vw 0 3vw 0;
+    height: auto;
+    line-height: 1.7vw;
+    margin-bottom: 8vw;
+    width: 40%;
+}
+
+.card p{
+    padding: 1vw 7vw 0 7vw;
+}
+
+.card h3{
+    text-align: center;
+}
+
+.card::before,
+.card::after {
+    content: "";
+    position: absolute;
+    border: 0.2vw solid rgb(45, 106, 79); 
+}
+
+.card::before {
+    top: -1vw;
+    left: -1vw;
+    width: calc(100% + 2.3vw);
+    height: calc(100% + 2.3vw);
+    border-right: none;
+    border-bottom: none;
+}
+
+.card::after {
+    bottom: -1vw;
+    right: -1vw;
+    width: calc(100% + 2.3vw);
+    height: calc(100% + 2.3vw);
+    border-left: none;
+    border-top: none;
+}

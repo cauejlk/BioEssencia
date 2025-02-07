@@ -1,22 +1,13 @@
-:root {
-    --roxoEscuro: #5A189A;
-    --lilas: #C77DFF;
-    --verde: #2D6A4F;
-    --cinza: #3C3C3C;
-    --lilasClaro: #E0AAFF;
-}
 
 /*--------------------------------
             sec inicio
 ----------------------------------*/
 .inicio h1{
     text-align: center;
-    font-size: 5rem;
     padding: 5vw 20vw 0 0;
 }
 
 .inicio p{
-    font-size: 2rem;
     margin: 1vw 25vw 7vw 30vw;
     line-height: 2.5vw;
 }
@@ -40,8 +31,6 @@
     white-space: nowrap;
     scroll-behavior: smooth;
     border-bottom: 2px solid #ddd;
-
-    /* Deixa espaço para as setas */
 }
 
 .arrowEscondida{
@@ -50,7 +39,6 @@
 }
 
 .scroll-container button {
-    font-size: 1.5vw;
     padding: 10px 20px;
     border: 2px solid #4a6c4a;
     background-color: white;
@@ -67,7 +55,6 @@
 }
 
 .arrow {
-    font-size: 3vw;
     color: #4a6c4a;
     cursor: pointer;
     user-select: none;
@@ -91,13 +78,11 @@
 }
 
 .info-box h2 {
-    font-size: 3rem;
     margin: 0 0 10px 0;
     color: #4a6c4a;
     text-align: center;
 }
 
 .info-box p {
-    font-size: 1.5rem;
     color: #333;
 }

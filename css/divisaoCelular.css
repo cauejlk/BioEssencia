@@ -1,0 +1,421 @@
+body{
+    overflow-x: hidden;
+}
+
+
+/*----------------------------------
+            SEC TITULO
+------------------------------------*/
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo h1 {
+    padding: 13vw 0 2vw 0;
+}
+
+.titulo p {
+    padding: 0 14vw 18vw 14vw;
+}
+
+/*------------------------------------
+        SEC CICLO-CELULAR
+--------------------------------------*/
+
+.ciclo-celular {
+    border: 3px solid #2D6A4F;
+    padding: 7vw 3vw;
+    margin: 4vw 10vw 10vw 10vw;
+}
+
+.ciclo-celular h2 {
+    text-align: center;
+    margin: 0 0 3vw 0;
+}
+
+.ciclo-celular p {
+    text-align: start;
+    padding: 0 15vw 2vw 15vw;
+}
+
+/*================ Cartas das fases =====================*/
+
+.ciclo-celular .fases {
+    display: flex;
+    gap: 15vw;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ciclo-celular .fases .carta {
+    width: 230px;
+    height: 250px;
+    perspective: 1000px;
+}
+
+.ciclo-celular .fases .carta p {
+    padding: 0;
+}
+
+.ciclo-celular .fases .carta-conteudo {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+}
+
+.ciclo-celular .fases .carta:hover .carta-conteudo {
+    transform: rotateY(180deg);
+}
+
+.ciclo-celular .fases .frente,
+.ciclo-celular .fases .verso {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.frente {
+    background-color: #EDD48E;
+}
+
+.verso {
+    background-color: #2D6A4F;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+/*-------------------------------------------------
+                SEC MITOSE  
+-------------------------------------------------*/
+
+.mitose {
+    border: 5px solid;
+    background-color: #8959A4;
+    margin: 0 4vw;
+    padding: 0 0 2vw 0;
+    border-radius: 10px;
+}
+
+.mitose h2 {
+    background-color: black;
+    color: rgb(245, 222, 179);
+    text-align: center;
+    border-radius: 1vw;
+    text-align: center;
+    padding: 1vw;
+    margin: -3vw 20vw 5vw 20vw;
+}
+
+.mitose p {
+    padding: 0 15vw 0 15vw;
+}
+
+.mitose p#etapas {
+    text-align: center;
+    padding: 4vw;
+}
+
+.mitose-Carta {
+    display: flex;
+    gap: 2vw;
+    padding: 1vw 1vw;
+}
+
+.cartasBack-mitose {
+    background-color: white;
+    padding: 1.5vw;
+    border-radius: 15px;
+    border: 3px solid black;
+    width: 20%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cartasColor-mitose {
+    height: 38vw;
+    background-color: #48A27A;
+    border-radius: 15px;
+    border: 4px solid #2D6A4F;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2vw;
+    color: white;
+}
+
+.telofase {
+    margin-top: 5vw;
+}
+
+.anafase {
+    margin-top: 1vw;
+}
+
+.metafase {
+    margin-top: 2vw;
+}
+
+.cartasColor-mitose #tituloCarta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1vw;
+    position: relative;
+}
+
+.cartasColor-mitose #tituloCarta span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5vw;
+    height: 5vw;
+    background-color: #48A27A;
+    border-radius: 5vw;
+    border: 6px solid white;
+    position: absolute;
+    top: -3vw;
+    left: -4vw;
+    color: white;
+}
+
+.cartasColor-mitose #tituloCarta h3 {
+    color: black;
+    margin: -1vw 0 0 -27vw;
+    padding: 0;
+}
+
+.cartasColor-mitose p:last-child {
+    color: black;
+    padding: 0;
+    font-size: 1.3vw;
+    line-height: 1.6vw;
+}
+
+/*-------------------------------------------------
+                SEC meiose  
+-------------------------------------------------*/
+
+.meiose {
+    border: 5px solid;
+    background-color: #8959A4;
+    margin: 10vw 4vw;
+    border-radius: 10px;
+    padding: 0 0 2vw 0;
+}
+
+.meiose h2 {
+    background-color: black;
+    color: wheat;
+    text-align: center;
+    border-radius: 1vw;
+    text-align: center;
+    padding: 1vw;
+    margin: -3vw 20vw 5vw 20vw;
+}
+
+.meiose p {
+    line-height: 2vw;
+    padding: 0 15vw 0 15vw;
+}
+
+.meiose p#etapas {
+    text-align: center;
+    padding: 4vw 15vw;
+}
+
+
+
+
+
+
+.meiose-Cartas {
+    display: flex;
+    gap: 1vw;
+    padding: 1.5vw;
+}
+
+.cartasBack-meiose {
+    background-color: white;
+    padding: 1.5vw;
+    border-radius: 15px;
+    border: 3px solid black;
+    width: 30vw;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cartasColor-meiose {
+
+    height: 35vw;
+    background-color: #48A27A;
+    border-radius: 15px;
+    border: 4px solid #2D6A4F;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+}
+
+.cartasColor-meiose #tituloCarta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5vw;
+    position: relative;
+}
+
+.cartasColor-meiose #tituloCarta span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5vw;
+    height: 5vw;
+    background-color: #48A27A;
+    border-radius: 5vw;
+    border: 6px solid white;
+    position: absolute;
+    top: -1vw;
+    left: -4vw;
+    color: white;
+}
+
+.cartasColor-meiose #tituloCarta h3 {
+    color: black;
+    margin: 1vw 0 0 -27vw;
+    padding: 0;
+}
+
+.cartasColor-meiose p:last-child {
+    color: black;
+    padding:1vw 2vw 0;
+    font-size: 1.3vw;
+    line-height: 1.6vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.meiose-Cartas2 {
+    display: flex;
+    gap: 1vw;
+    padding: 1.5vw;
+}
+
+.cartasBack-meiose2 {
+    background-color: white;
+    padding: 1.5vw;
+    border-radius: 15px;
+    border: 3px solid black;
+    width: 30vw;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+.cartasColor-meiose2 {
+    height: 35vw;
+    background-color: #48A27A;
+    border-radius: 15px;
+    border: 4px solid #2D6A4F;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+}
+
+.cartasColor-meiose2 #tituloCarta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5vw;
+    position: relative;
+}
+
+.cartasColor-meiose2 #tituloCarta span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5vw;
+    height: 5vw;
+    background-color: #48A27A;
+    border-radius: 5vw;
+    border: 6px solid white;
+    position: absolute;
+    top: -1vw;
+    left: -4vw;
+    color: white;
+}
+
+.cartasColor-meiose2 #tituloCarta h3 {
+    color: black;
+    margin: 1vw 0 0 -27vw;
+    padding: 0;
+}
+
+.cartasColor-meiose2 p:last-child {
+    color: black;
+    padding: 1vw 2vw 0;
+    font-size: 1.3vw;
+    line-height: 1.6vw;
+}
+
+/*======================================================== FLECHAS ==================================*/
+
+.meiose-Cartas .arrow,
+.meiose-Cartas2 .arrow {
+    background-color: #8959A4;
+    border: 0;
+    height: 20vw;
+    transition: 0.2s ease-in-out;
+    font-size: 2.5vw;
+    margin-top: 10vw;
+}
+
+.meiose-Cartas .arrow:hover,
+.meiose-Cartas2 .arrow:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+    
+}
+
+.meiose-Cartas,
+.meiose-Cartas2 {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out, display 0.6s ease-in-out;
+    
+}
+
+.meioseEscondida {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out,  display 0.6s ease-in-out;
+    display: none;
+    pointer-events: none;
+    position: absolute;
+}

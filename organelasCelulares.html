@@ -1,26 +1,28 @@
 <!DOCTYPE html>
-<html lang="pr-BR">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/organelas.css">
+    <link rel="stylesheet" href="css/organelasCelulares.css">
     <script src="js/organelas.js"></script>
-    <title>BioEssência</title>
+    <link rel="icon" type="image/png" href="src/logo.png">
+    <title>BioEssência - Organelas Celulares</title>
+    <link rel="stylesheet" href="css/cores.css">
 </head>
 
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="Células.html">Células</a></li>
-                <li><a href="organelas.html">Organelas</a></li>
-                <li><a href="juncaoCelular.html">Juncão<br>Celular</a></li>
-                <li><a href="PagInicial.html"><img src="src/LOGO.png" alt="logo" height="90px" width="auto"></a></li>
-                <li><a href="divisao.html">Divisão<br>Celular</a></li>
-                <li><a href="metabolismo.html">Metabolismo<br>energético</a></li>
-                <li><a href="referencia.html">Referências</a></li>
+                <li><a href="celulas.html">Células</a></li>
+                <li><a href="metabolismoEnergetico.html">Metabolismo<br>Energético</a></li> 
+                <li><a href="juncaoCelular.html">Junção Celular</a></li>
+                <li><a href="index.html"><img src="src/logo.png" alt="Logo do site."></a></li>
+                <li><a href="divisaoCelular.html">Divisão Celular</a></li>
+               <li><a href="organelasCelulares.html">Organelas</a></li>
+                <li><a href="#">Referências</a></li>
             </ul>
         </nav>
     </header>
@@ -65,41 +67,41 @@
         </div>
 
         <script>
-           const scrollContainer = document.getElementById('scrollContainer');
-let botaoEsquerdo = document.getElementById('botaoFlechaEsquerda');
-let botaoDireito = document.getElementById('botaoFlechaDireita');
-botaoEsquerdo.classList.add('arrowEscondida');
+            const scrollContainer = document.getElementById('scrollContainer');
+            let botaoEsquerdo = document.getElementById('botaoFlechaEsquerda');
+            let botaoDireito = document.getElementById('botaoFlechaDireita');
+            botaoEsquerdo.classList.add('arrowEscondida');
 
-function scrollLeftHandler() {
-    scrollContainer.scrollBy({ left: -700, behavior: 'smooth' });
-    botaoDireito.classList.remove('arrowEscondida');
-    setTimeout(verificaSeta, 540);
-}
+            function scrollLeftHandler() {
+                scrollContainer.scrollBy({ left: -700, behavior: 'smooth' });
+                botaoDireito.classList.remove('arrowEscondida');
+                setTimeout(verificaSeta, 540);
+            }
 
-function scrollRightHandler() {
-    scrollContainer.scrollBy({ left: 700, behavior: 'smooth' });
-    botaoEsquerdo.classList.remove('arrowEscondida');
-    setTimeout(verificaSeta, 540);
-}
+            function scrollRightHandler() {
+                scrollContainer.scrollBy({ left: 700, behavior: 'smooth' });
+                botaoEsquerdo.classList.remove('arrowEscondida');
+                setTimeout(verificaSeta, 540);
+            }
 
-function verificaSeta() {
-    // Maximum scrollable distance
-    const maxScrollLeft = scrollContainer.scrollWidth - scrollContainer.clientWidth;
+            function verificaSeta() {
+                // Maximum scrollable distance
+                const maxScrollLeft = scrollContainer.scrollWidth - scrollContainer.clientWidth;
 
-    // Check if at the start of the scroll
-    if (scrollContainer.scrollLeft === 0) {
-        botaoEsquerdo.classList.add('arrowEscondida');
-    } else {
-        botaoEsquerdo.classList.remove('arrowEscondida');
-    }
+                // Check if at the start of the scroll
+                if (scrollContainer.scrollLeft === 0) {
+                    botaoEsquerdo.classList.add('arrowEscondida');
+                } else {
+                    botaoEsquerdo.classList.remove('arrowEscondida');
+                }
 
-    // Check if at the end of the scroll
-    if (scrollContainer.scrollLeft >= maxScrollLeft) {
-        botaoDireito.classList.add('arrowEscondida');
-    } else {
-        botaoDireito.classList.remove('arrowEscondida');
-    }
-}
+                // Check if at the end of the scroll
+                if (scrollContainer.scrollLeft >= maxScrollLeft) {
+                    botaoDireito.classList.add('arrowEscondida');
+                } else {
+                    botaoDireito.classList.remove('arrowEscondida');
+                }
+            }
 
 
 
