@@ -15,14 +15,15 @@
 <body>
     <header>
         <nav>
+            <div>
+                <a href="index.html"><img src="src/logo.png" alt="Logo do site."></a>
+            </div>
             <ul>
                 <li><a href="celulas.html">Células</a></li>
                 <li><a href="metabolismoEnergetico.html">Metabolismo<br>Energético</a></li>
                 <li><a href="juncaoCelular.html">Junção Celular</a></li>
-                <li><a href="index.html"><img src="src/logo.png" alt="Logo do site."></a></li>
                 <li><a href="divisaoCelular.html">Divisão Celular</a></li>
                 <li><a href="organelasCelulares.html">Organelas</a></li>
-                <li><a href="#">Referências</a></li>
             </ul>
         </nav>
     </header>
@@ -37,7 +38,7 @@
         </section>
 
         <div class="container">
-            <button id="botaoFlechaEsquerda" style="margin-left: 1vw;" class="arrow"
+            <button id="botaoFlechaEsquerda" style="margin-left: 2vw;" class="arrow"
                 onclick="scrollLeftHandler()">&#8592;</button>
             <div class="scroll-container" id="scrollContainer">
                 <button onclick="showInfo('mitocondria')">Mitocôndria</button>
@@ -55,15 +56,15 @@
                 <button onclick="showInfo('parede')">Parede Celular</button>
                 <button onclick="showInfo('vacuolos')">Vacuolos</button>
             </div>
-            <button id="botaoFlechaDireita" style="margin-right: 1vw;" class="arrow"
+            <button id="botaoFlechaDireita" style="margin-right: 2vw;" class="arrow"
                 onclick="scrollRightHandler()">&#8594;</button>
         </div>
 
 
 
         <div id="info" class="info-box">
-            <h2 id="info-titulo"></h2>
-            <p id="info-conteudo"></p>
+            <h2 id="info-titulo">&nbsp;</h2>
+            <p id="info-conteudo">&nbsp;</p>
         </div>
 
         <script>
@@ -81,27 +82,24 @@
             function scrollRightHandler() {
                 scrollContainer.scrollBy({ left: 700, behavior: 'smooth' });
                 botaoEsquerdo.classList.remove('arrowEscondida');
-                setTimeout(verificaSeta, 540);
+                scrollContainer.addEventListener('scroll', verificaSeta);
             }
 
             function verificaSeta() {
-                // Maximum scrollable distance
                 const maxScrollLeft = scrollContainer.scrollWidth - scrollContainer.clientWidth;
 
-                // Check if at the start of the scroll
-                if (scrollContainer.scrollLeft === 0) {
+                if (scrollContainer.scrollLeft <= 5) {
                     botaoEsquerdo.classList.add('arrowEscondida');
                 } else {
                     botaoEsquerdo.classList.remove('arrowEscondida');
-                }
+                };
 
-                // Check if at the end of the scroll
-                if (scrollContainer.scrollLeft >= maxScrollLeft) {
+                if (scrollContainer.scrollLeft >= maxScrollLeft - 5) {
                     botaoDireito.classList.add('arrowEscondida');
                 } else {
                     botaoDireito.classList.remove('arrowEscondida');
-                }
-            }
+                };
+            };
 
 
 

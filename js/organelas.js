@@ -1,5 +1,3 @@
-
-// Dados das informações
 const infoData = {
     mitocondria: {
         titulo: "Mitocôndria",
@@ -23,7 +21,7 @@ const infoData = {
                         <p>A respiração celular é o processo pelo qual as células convertem nutrientes, como
                         glicose, em energia utilizável, na forma de ATP (Trifosfato de Adenosina, é a principal molécula
                         de armazenamento e transferência de energia nas células).</p>
-        
+                    <div class="divIframes">
                         <p>
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/4E1KqmskoAM?si=zv58ugmevAGr70Kf" 
                                 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
@@ -31,6 +29,7 @@ const infoData = {
                                 allowfullscreen>
                             </iframe>
                         </p>
+                        </div>
         
                         <details>
                             <Summary class="organelas">Quais os tipos de respiração celular?</Summary>
@@ -67,7 +66,7 @@ const infoData = {
                                         transportadas em vesículas para o Complexo de Golgi, onde são processadas e enviadas ao
                                         seu destino final. O RER tem um papel fundamental em células que produzem grandes
                                         quantidades de proteínas, como as células do pâncreas e as células imunológicas.</p>
-                                    <img src="src/organelas/reticuloendoplasmatico.png" alt="retículo endoplasmático rugoso" height="200">`
+                                 <div class="divIframes">   <img src="src/organelas/reticuloendoplasmatico.png" alt="retículo endoplasmático rugoso" height="200"> </div>` 
     },
     lisossomos: {
         titulo: "Lisossomos",
@@ -117,8 +116,8 @@ const infoData = {
         
                                             
                                     </details>
-        
-                                    <p> <iframe width="560" height="315" src="https://www.youtube.com/embed/6PEwEM3pSZA?si=a6fDTR1MDaeScuDL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+        <div class="divIframes">
+                                    <p> <iframe width="560" height="315" src="https://www.youtube.com/embed/6PEwEM3pSZA?si=a6fDTR1MDaeScuDL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p> </div>
         `
     },
 
@@ -129,7 +128,7 @@ const infoData = {
                                         sintetizadas no RER. Além disso, o aparelho de Golgi produz vesículas que brotam e se
                                         soltam originando os lisossomos primários. No momento em que esses lisossomos primários
                                         se fundem aos endossomas formam vacúolos.</p>
-                                <p> <iframe width="560" height="315" src="https://www.youtube.com/embed/RywZgWUSWEM?si=DVtL-6V8OwVnQ8ht" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p> `
+                               <div class="divIframes"> <p> <iframe width="560" height="315" src="https://www.youtube.com/embed/RywZgWUSWEM?si=DVtL-6V8OwVnQ8ht" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p></div> `
     },
     citoplasma: {
         titulo: "Citoplasma",
@@ -142,7 +141,7 @@ const infoData = {
                                         meio de transporte de substâncias e é onde ocorrem muitas reações metabólicas
                                         importantes, como a glicólise. Ele também ajuda a manter a forma da célula e dá suporte
                                         às organelas, facilitando a movimentação e interação entre elas.</p>
-                                    <img src="src/organelas/citoplasma.png" alt="citoplasma" height="200">`
+                                  <div class="divIframes">  <img src="src/organelas/citoplasma.png" alt="citoplasma" height="200"></div>`
     },
     nucleo: {
         titulo: "Núcleo",
@@ -157,7 +156,7 @@ const infoData = {
                                         celular.
         
                                     </p>
-                                    <img src="src/organelas/nucleo.png" alt="núcleo" height="200">`
+                                  <div class="divIframes">  <img src="src/organelas/nucleo.png" alt="núcleo" height="200"></div>`
     },
     cloroplasto: {
         titulo: "Cloroplasto",
@@ -167,7 +166,7 @@ const infoData = {
                                         e captura a luz solar. Como as mitocôndrias, os cloroplastos têm DNA próprio e são
                                         formados por membranas internas chamadas tilacoides, onde ocorrem as reações de
                                         fotossíntese.</p>
-                                    <img src="src/organelas/cloropasto.png" alt="cloropasto" height="200">`
+                                 <div class="divIframes">   <img src="src/organelas/cloropasto.png" alt="cloropasto" height="200"> </div>`
     },
     ribossomos: {
         titulo: "Ribossomos",
@@ -181,8 +180,8 @@ const infoData = {
                                         moléculas de <abbr title="Saiba Mais em: https://www.todamateria.com.br/proteinas/"><a
                                                 href="https://www.todamateria.com.br/rna/" target="_blank">RNA</a></abbr>
                                         e proteínas. Elas não possuem membranas.</p>
-                                    <img src="src/organelas/ribossomos.png" alt="ribossomos" height="200">
-                                    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/lT9GD4--NZc?si=7jClLdjgpuRjxQX7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>`
+                                 <div class="divIframes">   <img src="src/organelas/ribossomos.png" alt="ribossomos" height="200"> </div>
+                                 <div class="divIframes">   <p><iframe width="560" height="315" src="https://www.youtube.com/embed/lT9GD4--NZc?si=7jClLdjgpuRjxQX7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p> </div>`
     },
     rel: {
         titulo: "REL",
@@ -201,7 +200,7 @@ const infoData = {
                                         células das glândulas suprarrenais, e em células do fígado, onde auxilia na
                                         desintoxicação
                                         de drogas e outros compostos químicos.</p>
-                                    <img src="src/organelas/reticuloendoplasmatico.png" alt="retículo endoplasmático liso" height="200">`
+                                  <div class="divIframes">  <img src="src/organelas/reticuloendoplasmatico.png" alt="retículo endoplasmático liso" height="200"> </div>`
     },
 
     peroxissomos: {
@@ -220,7 +219,7 @@ const infoData = {
                                         Peroxissomos possuem enzimas que convertem o peróxido de hidrogênio em água e oxigênio, protegendo a célula de danos oxidativos. Além disso, participam da degradação de ácidos graxos de cadeia longa, o que é essencial para o metabolismo celular.</p>
                                     <p> Os glioxissomos são peroxissomos especializados encontrados em tecidos de armazenamento lipídico de sementes vegetais. Nessas células, essas organelas atuam convertendo ácidos graxos em açúcares, fornecendo a energia e o carbono necessários para que as plântulas consigam se desenvolver até serem capazes de realizar a fotossíntese e produzir seu próprio alimento.
                                     </p>
-                                    <img src="src/organelas/peroxissomos.png" alt="peroxissomos" height="200">`
+                                  <div class="divIframes">  <img src="src/organelas/peroxissomos.png" alt="peroxissomos" height="200"> </div>`
     },
     membrana: {
         titulo: "Membrana Plasmática",
@@ -235,7 +234,7 @@ const infoData = {
                                         de resíduos. Além disso, as proteínas da membrana desempenham funções de comunicação
                                         celular e transporte de moléculas.
                                     </p>
-                                    <img src="src/organelas/membranaplasmatica.png" alt="membrana plasmática" height="200">
+                                   <div class="divIframes"> <img src="src/organelas/membranaplasmatica.png" alt="membrana plasmática" height="200"> </div>
                                 </div>
                                 <div id="content12" class="content">
                                     <h2>Centríolos</h2>
@@ -248,9 +247,9 @@ const infoData = {
                                         utilizando outras estruturas para auxiliar na divisão celular. Como as placas celulares
                                         e o Centro Organizador de Microtúbulos (MTOC). </p>
         
-                                    <p>
+                                 <div class="divIframes">   <p>
                                         <iframe width="560" height="315" src="https://www.youtube.com/embed/OrghYcncKMw?si=EioFVA6unO76bPYL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                    </p>
+                                    </p> </div>
                                     <details>
                                         <summary class="organelas">O que são a Placa Celular e o MTOC</summary>
                                         <p> A placa celular é uma estrutura que se forma nas células vegetais durante a mitose,
@@ -274,9 +273,9 @@ const infoData = {
                                         serem essenciais em células animais, muitas células vegetais não possuem centríolos,
                                         utilizando outras estruturas para auxiliar na divisão celular. Como as placas celulares
                                         e o Centro Organizador de Microtúbulos (MTOC). </p>
-                                    <p>
+                                 <div class="divIframes">   <p>
                                         <iframe width="560" height="315" src="https://www.youtube.com/embed/OrghYcncKMw?si=EioFVA6unO76bPYL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                    </p>
+                                    </p> </div>
                                     <details>
                                         <summary class="organelas">O que são a Placa Celular e o MTOC</summary>
                                         <p> A placa celular é uma estrutura que se forma nas células vegetais durante a mitose,
@@ -301,7 +300,7 @@ const infoData = {
                                         a manter a forma da célula.
         
                                     </p>
-                                    <img src="src/organelas/paredecelular.png" alt="parede celular" height="200">`
+                                  <div class="divIframes">  <img src="src/organelas/paredecelular.png" alt="parede celular" height="200"> </div>`
     },
     vacuolos: {
         titulo: "Vacuolos",
@@ -318,8 +317,8 @@ const infoData = {
                                         essenciais para a célula.</p>
                                     <p> E em algumas células vegetais, ela mantém a pressão de turgor, essencial para a
                                         sustentação das plantas, e também pode armazenar substâncias tóxicas ou de defesa contra
-                                        herbívoros. Podem digerir moléculas na ausência ou no suporte de lisossomos.</p> <img
-                                        src="src/organelas/vacuolo.png" alt="vacúolos" height="200">
+                                        herbívoros. Podem digerir moléculas na ausência ou no suporte de lisossomos.</p> <div class="divIframes"> <img
+                                        src="src/organelas/vacuolo.png" alt="vacúolos" height="200"> </div>
                                     <details>
                                         <summary class="organelas">O que são vesículas?</summary>
                                         <p>As vesículas são pequenas estruturas membranosas presentes em células eucarióticas,
@@ -351,7 +350,6 @@ const infoData = {
     }
 };
 
-// Exibe informações na tela
 function showInfo(key) {
     const infoBox = document.getElementById('info');
     const titulo = document.getElementById('info-titulo');

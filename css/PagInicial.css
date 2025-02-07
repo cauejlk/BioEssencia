@@ -3,7 +3,7 @@
 ---------------------------------*/
 section.titulo {
     text-align: center;
-    padding: 20vw 0 20vw 0;
+    padding: 21vw 0 10vw 0; 
 }
 
 section.titulo h1 {
@@ -13,9 +13,9 @@ section.titulo h1 {
 
 section.titulo img {
     position: relative;
-    margin: -25.5vw 0 0 0;
+    margin: -23vw 0 0 0;
     height: 50vw;
-    width: 100%;
+    width: 100%; border-bottom: 0.3vw solid rgb(199, 125, 255);
 }
 
 /*-------------------------------
@@ -61,12 +61,10 @@ section.conteudos div h3 {
 }
 
 section.conteudos div p {
-    font-size: 1.5vw;
     padding: 2vw 20vw 2vw 20vw;
 }
 
 section.conteudos div a {
-    font-size: 1.2vw;
     border: var(--cinza) 0.3vw solid;
     padding: 0.8vw 2.2vw 0.8vw 2.2vw;
     margin: 1vw 20vw;

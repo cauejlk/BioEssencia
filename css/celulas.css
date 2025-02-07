@@ -11,7 +11,6 @@
 .inicio h1 {
     padding: 0 20vw 0 0;
     text-align: center;
-    font-size: 4vw;
 }
 
 .inicio p {
@@ -50,19 +49,18 @@
     display: flex;
     justify-content: center;
     gap: 10vw;
+    flex-wrap: wrap;
 }
 
 .card {
     position: relative;
     padding: 3vw 0 3vw 0;
-    height: auto;
-    line-height: 1.7vw;
     margin-bottom: 8vw;
     width: 40%;
 }
 
 .card p {
-    padding: 1vw 7vw 0 7vw;
+    padding: 1vw 2vw 0 2vw;
 }
 
 .card h3 {

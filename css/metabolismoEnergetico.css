@@ -33,7 +33,6 @@
 
 .titulo #tags a {
     color: black;
-    font-size: 2vw;
 }
 
 .titulo #tags a:hover {
@@ -142,7 +141,7 @@
     border-radius: 3vw;
     padding: 1vw;
     transition: box-shadow .2s ease-in;
-    margin: 5vw 30vw 0 30vw;
+    margin: 5vw 10vw 0 10vw;
 }
 
 .processos .divGrande #divPequena {
