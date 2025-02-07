@@ -2,16 +2,16 @@
             Juncão Celular
 ----------------------------------------*/
 
-.juncao{
+.juncao {
     padding: 6vw 0 6vw 0;
     text-align: center;
 }
 
-.juncao div p{
+.juncao div p {
     margin: 1vw 35vw;
 }
 
-.juncao div{
+.juncao div {
     display: flex;
 }
 
@@ -19,21 +19,21 @@
             Desmossomos
 ----------------------------------------*/
 
-.desmossomos{
+.desmossomos {
     background-color: var(--verdeClaro);
     padding: 0 0 6vw 0;
 }
 
-.desmossomos h2{
+.desmossomos h2 {
     text-align: center;
     margin: 0 0 4vw 0;
 }
 
-.desmossomos p:first-of-type{
+.desmossomos p:first-of-type {
     margin: 0 28vw 0 10vw;
 }
 
-.desmossomos p:last-of-type{
+.desmossomos p:last-of-type {
     margin: 1vw 10vw 0 35vw;
 }
 
@@ -41,21 +41,21 @@
         .Juncoes aderentes
 ----------------------------------*/
 
-.juncoes-aderentes{
+.juncoes-aderentes {
     background-color: var(--verde);
     padding: 6vw 0;
 }
 
-.juncoes-aderentes h2:first-of-type{
+.juncoes-aderentes h2:first-of-type {
     margin: 0 0 0 15vw;
 }
 
-.juncoes-aderentes h2:last-of-type{
+.juncoes-aderentes h2:last-of-type {
     text-align: end;
     margin: 0 15vw 0 0;
 }
 
-.juncoes-aderentes p{
+.juncoes-aderentes p {
     margin: 1vw 25vw;
 }
 
@@ -63,12 +63,12 @@
         .Juncoes comunicantes
 ----------------------------------*/
 
-.juncoes-comunicantes{
+.juncoes-comunicantes {
     background-color: var(--verdeEscuro);
     padding: 8vw;
 }
 
-.juncoes-comunicantes #background{
+.juncoes-comunicantes #background {
     background-color: #EDD48E;
     padding: 5vw 5vw 5vw 5vw;
     text-align: center;
@@ -76,12 +76,12 @@
     box-shadow: 4px 4px 30px black;
 }
 
-.juncoes-comunicantes #background #textos{
+.juncoes-comunicantes #background #textos {
     display: flex;
     text-align: left;
     padding: 1vw 0 0 10vw;
 }
 
-.juncoes-comunicantes #background #textos p{
+.juncoes-comunicantes #background #textos p {
     padding: 3vw 7vw 0 0;
 }

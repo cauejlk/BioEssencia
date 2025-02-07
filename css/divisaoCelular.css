@@ -1,4 +1,4 @@
-body{
+body {
     overflow-x: hidden;
 }
 
@@ -302,7 +302,7 @@ body{
 
 .cartasColor-meiose p:last-child {
     color: black;
-    padding:1vw 2vw 0;
+    padding: 1vw 2vw 0;
     font-size: 1.3vw;
     line-height: 1.6vw;
 }
@@ -334,7 +334,7 @@ body{
     border: 3px solid black;
     width: 30vw;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    
+
 }
 
 .cartasColor-meiose2 {
@@ -402,19 +402,19 @@ body{
 .meiose-Cartas2 .arrow:hover {
     cursor: pointer;
     transform: scale(1.5);
-    
+
 }
 
 .meiose-Cartas,
 .meiose-Cartas2 {
     opacity: 1;
     transition: opacity 0.3s ease-in-out, display 0.6s ease-in-out;
-    
+
 }
 
 .meioseEscondida {
     opacity: 0;
-    transition: opacity 0.3s ease-in-out,  display 0.6s ease-in-out;
+    transition: opacity 0.3s ease-in-out, display 0.6s ease-in-out;
     display: none;
     pointer-events: none;
     position: absolute;

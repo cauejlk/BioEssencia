@@ -1,13 +1,12 @@
-
 /*--------------------------------
             sec inicio
 ----------------------------------*/
-.inicio h1{
+.inicio h1 {
     text-align: center;
     padding: 5vw 20vw 0 0;
 }
 
-.inicio p{
+.inicio p {
     margin: 1vw 25vw 7vw 30vw;
     line-height: 2.5vw;
 }
@@ -33,7 +32,7 @@
     border-bottom: 2px solid #ddd;
 }
 
-.arrowEscondida{
+.arrowEscondida {
     pointer-events: none;
     visibility: hidden;
 }

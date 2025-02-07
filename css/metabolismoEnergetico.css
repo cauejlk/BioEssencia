@@ -20,11 +20,11 @@
     margin: 5vw 0 2.6vw 0;
 }
 
-.introducao{
+.introducao {
     margin: 0 15vw;
 }
 
-.titulo #tags a {  
+.titulo #tags a {
     margin: 0 2vw;
     border: 0.2vw solid rgb(19, 19, 19);
     border-radius: 1vw;
@@ -116,7 +116,7 @@
 
 .processos .divGrande {
     margin: 0 5vw;
-    
+
 }
 
 .processos .divGrande #divMedio h3,
