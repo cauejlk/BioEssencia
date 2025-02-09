@@ -27,7 +27,6 @@
             </ul>
         </nav>
     </header>
-
     <main>
         <section class="inicio">
             <h1>Organelas Celulares</h1>
@@ -36,7 +35,6 @@
                 diferentes, algumas organelas são exclusivas de células vegetais ou animais.
             </p>
         </section>
-
         <div class="container">
             <button id="botaoFlechaEsquerda" style="margin-left: 2vw; margin-right: 1vw;" class="arrow"
                 onclick="scrollLeftHandler()">&#8592;</button>
@@ -59,32 +57,25 @@
             <button id="botaoFlechaDireita" style="margin-right: 2vw; margin-left: 1vw;" class="arrow"
                 onclick="scrollRightHandler()">&#8594;</button>
         </div>
-
-
-
         <div id="info" class="info-box">
             <h2 id="info-titulo">&nbsp;</h2>
             <p id="info-conteudo">&nbsp;</p>
         </div>
-
         <script>
             const scrollContainer = document.getElementById('scrollContainer');
             let botaoEsquerdo = document.getElementById('botaoFlechaEsquerda');
             let botaoDireito = document.getElementById('botaoFlechaDireita');
             botaoEsquerdo.classList.add('arrowEscondida');
-
             function scrollLeftHandler() {
                 scrollContainer.scrollBy({ left: -700, behavior: 'smooth' });
                 botaoDireito.classList.remove('arrowEscondida');
                 setTimeout(verificaSeta, 540);
-            }
-
+            };
             function scrollRightHandler() {
                 scrollContainer.scrollBy({ left: 700, behavior: 'smooth' });
                 botaoEsquerdo.classList.remove('arrowEscondida');
                 scrollContainer.addEventListener('scroll', verificaSeta);
-            }
-
+            };
             function verificaSeta() {
                 const maxScrollLeft = scrollContainer.scrollWidth - scrollContainer.clientWidth;
 
@@ -100,35 +91,56 @@
                     botaoDireito.classList.remove('arrowEscondida');
                 };
             };
-
-
-
         </script>
-        <div class="referencias">
-            <h4>Referências</h4>
+        <section class="referencias">
+            <h4>Referências:</h4>
             <ul>
-                
-                <li>
-<a target="_blank" href="https://bibliotecadebiomedicina.blogspot.com/2019/01/livro-biologia-celular-e-molecular.html">Organelas</a>
-                </li><li>
-                    <a target="_blank" href="https://brasilescola.uol.com.br/biologia/mitocondrias.htm">Mitocôndrias</a>
-                </li>
-                <li>
-                    <a target="_blank" href="https://brasilescola.uol.com.br/biologia/endocitose.htm">Endositse</a>
-                </li>
-                <li>
-                    <a target="_blank" href="https://www.meulivro.biz/citologia-genetica/524/biologia-molecular-da-celula-alberts-6-ed-pdf/">Retículo Endoplasmático</a>
-                </li>
-                <li>
-                    <a target="_blank" href="https://mundoeducacao.uol.com.br/biologia/peroxissomos.htm">Peroxissosomos</a>
-                </li>
-                <li><h5>Pressão de turgor:</h5>
-                <p>Impacto da perda de pressão de turgor e murchamento de plantas: Kramer, P. J., & Boyer, J. S. (1995). Water Relations of Plants and Soils. Academic Press.   pressão de turgor
-                </p><p>O papel da pressão de turgor na sustentação de plantas: Nobel, P. S. (2009). Physicochemical and Environmental Plant Physiology (4th ed.). Academic Press.</p><p>Definição e importância da pressão de turgor: Taiz, L., & Zeiger, E. (2015). Plant Physiology and Development (6th ed.). Sinauer Associates.</p></li>
-            </ul>
-        </div>
-    </main>
 
+                <li>
+                    <h5>Organelas:</h5>
+                    <a target="_blank"
+                        href="https://bibliotecadebiomedicina.blogspot.com/2019/01/livro-biologia-celular-e-molecular.html">https://bibliotecadebiomedicina.blogspot.com/2019/01/livro-biologia-celular-e-molecular.html</a>
+                </li>
+                <li>
+                    <h5>Mitocôndrias:</h5>
+                    <a target="_blank"
+                        href="https://brasilescola.uol.com.br/biologia/mitocondrias.htm">https://brasilescola.uol.com.br/biologia/mitocondrias.htm</a>
+                </li>
+                <li>
+                    <h5>Endositse:</h5>
+                    <a target="_blank"
+                        href="https://brasilescola.uol.com.br/biologia/endocitose.htm">https://brasilescola.uol.com.br/biologia/endocitose.htm</a>
+                </li>
+                <li>
+                    <h5>Retículo Endoplasmático:</h5>
+                    <a target="_blank"
+                        href="https://www.meulivro.biz/citologia-genetica/524/biologia-molecular-da-celula-alberts-6-ed-pdf/">https://www.meulivro.biz/citologia-genetica/524/biologia-molecular-da-celula-alberts-6-ed-pdf/</a>
+                </li>
+                <li>
+                    <h5>Peroxissosomos:</h5>
+                    <a target="_blank" href="https://mundoeducacao.uol.com.br/biologia/peroxissomos.htm">https://mundoeducacao.uol.com.br/biologia/peroxissomos.htm</a>
+                    <br>
+                    <a target="_blank" href="https://youtu.be/IPkaa_B8hoI?si=7ZdxApjfFKyve-mY">https://youtu.be/IPkaa_B8hoI?si=7ZdxApjfFKyve-mY</a>
+                </li>
+                <li>
+                    <h5>Pressão de turgor:</h5>
+                    <p>
+                        Impacto da perda de pressão de turgor e murchamento de plantas: Kramer, P. J., & Boyer, J. S.
+                        (1995). Water Relations of Plants and Soils. Academic Press.
+                    </p>
+                    <p>
+                        O papel da pressão de turgor na sustentação de plantas: Nobel, P. S. (2009). Physicochemical and
+                        Environmental Plant Physiology (4th ed.). Academic Press.
+                    </p>
+                    <p>
+                        Definição e importância da pressão de turgor: Taiz, L., & Zeiger, E. (2015). Plant Physiology
+                        and
+                        Development (6th ed.). Sinauer Associates.
+                    </p>
+                </li>
+            </ul>
+        </section>
+    </main>
     <footer>
         <p>Cauê J. L. Kreutz<br>
             Gabriela Senderski<br>

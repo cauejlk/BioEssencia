@@ -166,7 +166,6 @@ header nav ul {
     justify-content: space-around;
     align-items: center;
     border-bottom: 0.3vw solid rgb(199, 125, 255);
-
 }
 
 header nav ul li {
@@ -175,7 +174,6 @@ header nav ul li {
     align-items: center;
     justify-content: center;
     width: 15%;
-
 }
 
 header nav div {
@@ -199,4 +197,37 @@ footer {
     position: relative;
     text-align: center;
     padding: 1.5vw 0;
+}
+
+.referencias {
+    margin: 7vw;
+}
+
+.referencias h4 {
+    font-size: 3.2rem;
+    margin-bottom: 2vw;
+    color: #4a6c4a;
+}
+
+.referencias ul li {
+    margin-top: 2vw;
+    font-size: 1.5rem;
+}
+
+.referencias ul li h5 {
+    font-size: 1.5rem;
+    margin-bottom: 1vw;
+    color: #3C3C3C;
+}
+
+.referencias ul li p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5vw;
+    color: #C77DFF;
+}
+
+.referencias ul li a {
+    text-decoration: underline;
+    color: #C77DFF;
+    font-size: 1.1rem;
 }

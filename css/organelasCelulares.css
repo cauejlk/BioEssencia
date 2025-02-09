@@ -1,9 +1,10 @@
 /*--------------------------------
             sec inicio
 ----------------------------------*/
-body{
+body {
     overflow-x: hidden;
 }
+
 .inicio h1 {
     text-align: center;
     padding: 5vw 20vw 0 0;
@@ -24,7 +25,7 @@ body{
     gap: 0.5vw;
 }
 
-.container button{
+.container button {
     font-size: 2rem;
 }
 
@@ -93,7 +94,7 @@ body{
     color: #333;
 }
 
-.divIframes{
+.divIframes {
     margin-top: 2vw;
     margin-bottom: 2vw;
     display: flex;
@@ -101,29 +102,6 @@ body{
     justify-content: center;
 }
 
-summary{
+summary {
     cursor: pointer;
-}
-
-.referencias{
-    margin: 7vw;
-}
-
-.referencias h4{
-   font-size: 3.2rem;
-   margin-bottom: 2vw;
-   color: #4a6c4a;
-}
-.referencias ul li{
-    margin-top: 2vw;
-    font-size: 1.5rem;
-}
-
-.referencias ul li h5{
-font-size: 1.5rem;
-margin-bottom: 1vw;
-}
-.referencias ul li p{
-    font-size: 1.1rem;
-    margin-bottom: 1.5vw;
 }
