@@ -33,11 +33,11 @@ const infoData = {
         
                         <details>
                             <summary class="organelas">Quais os tipos de respiração celular?</summary>
-        
+        <br>
                             <p><b>Processo Aeróbico:</b> A respiração aeróbica é o processo pelo qual as células convertem
                             nutrientes, especialmente a glicose, em energia na presença de oxigênio. É o método
                             mais eficiente de produção de ATP, gerando uma quantidade significativa de energia.</p>
-        
+        <br>
                             <p><b>Processo Anaeróbico:</b> A respiração anaeróbica é o processo pelo qual as células
                             convertem nutrientes, especialmente a glicose, em energia com baixa presença de oxigênio. 
                             É menos eficiente que a respiração aeróbica, produzindo uma quantidade menor de ATP. 
@@ -94,8 +94,11 @@ const infoData = {
         
                                    
         <div class="divIframes">
-                                    <p> <iframe width="560" height="315" src="https://www.youtube.com/embed/6PEwEM3pSZA?si=a6fDTR1MDaeScuDL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p> </div> <details>
+                                    <p> <iframe width="560" height="315" src="https://www.youtube.com/embed/6PEwEM3pSZA?si=a6fDTR1MDaeScuDL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p> </div> 
+                                    
+                                    <details>
                                         <summary class="organelas">O que é endocitose?</summary>
+                                        <br>
                                         <p>Endocitose é um processo que ocorre nas células e tem por objetivo trazer para o
                                             interior dessa estrutura substâncias por meio da absorção na membrana
                                             plasmática. A endocitose ocorre apenas em células eucariontes tanto em organismos
@@ -235,33 +238,7 @@ const infoData = {
                                         celular e transporte de moléculas.
                                     </p>
                                    <div class="divIframes"> <img src="src/organelas/membranaplasmatica.png" alt="membrana plasmática" height="200"> </div>
-                                </div>
-                                <div id="content12" class="content">
-                                    <h2>Centríolos</h2>
-                                    <p> Os centríolos são pequenas estruturas cilíndricas formadas por microtúbulos, encontrados
-                                        nas células animais, próximos ao núcleo, dentro do centrossomo. Eles desempenham um
-                                        papel fundamental na divisão celular, ajudando a organizar o fuso mitótico que separa os
-                                        cromossomos durante a mitose e a meiose. Além disso, os centríolos participam na
-                                        formação de cílios e flagelos, estruturas que ajudam na locomoção celular. Apesar de
-                                        serem essenciais em células animais, muitas células vegetais não possuem centríolos,
-                                        utilizando outras estruturas para auxiliar na divisão celular. Como as placas celulares
-                                        e o Centro Organizador de Microtúbulos (MTOC). </p>
-        
-                                 <div class="divIframes">   <p>
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/OrghYcncKMw?si=EioFVA6unO76bPYL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                    </p> </div>
-                                    <details>
-                                        <summary class="organelas">O que são a Placa Celular e o MTOC</summary>
-                                        <p> A placa celular é uma estrutura que se forma nas células vegetais durante a mitose,
-                                            quando as células se dividem, e que separa os citoplasmas das células filhas. A
-                                            placa celular é formada por vesículas que contêm pectina, celulose e hemicelulose,
-                                            que contribuem para a formação da parede primária e da lâmina média da nova parede
-                                            celular. </p>
-        
-                                        <p> O Centro Organizador de Microtúbulos (MTOC) é uma estrutura celular que organiza os
-                                            microtúbulos e que tem como função organizar os cílios e flagelos eucarióticos e
-                                            organizar o fuso mitótico, que separa os cromossomas durante a divisão celular.</p>
-                                    </details>`
+                                </div>`
     },
     centríolos: {
         titulo: "Centríolos",
@@ -278,6 +255,7 @@ const infoData = {
                                     </p> </div>
                                     <details>
                                         <summary class="organelas">O que são a Placa Celular e o MTOC</summary>
+                                        <br>
                                         <p> A placa celular é uma estrutura que se forma nas células vegetais durante a mitose,
                                             quando as células se dividem, e que separa os citoplasmas das células filhas. A
                                             placa celular é formada por vesículas que contêm pectina, celulose e hemicelulose,
@@ -303,7 +281,7 @@ const infoData = {
                                   <div class="divIframes">  <img src="src/organelas/paredecelular.png" alt="parede celular" height="200"> </div>`
     },
     vacuolos: {
-        titulo: "Vacuolos",
+        titulo: "Vacúolos",
         conteudo: ` <p>O vacúolos são desenvolvidos em células vegetais, e em algumas poucas células animais, é
                                         uma grande vesícula de água que armazenam e regulam água, íons, nutrientes e resíduos.
                                     </p>
@@ -321,6 +299,7 @@ const infoData = {
                                         src="src/organelas/vacuolo.png" alt="vacúolos" height="200"> </div>
                                     <details>
                                         <summary class="organelas">O que são vesículas?</summary>
+                                        <br>
                                         <p>As vesículas são pequenas estruturas membranosas presentes em células eucarióticas,
                                             responsáveis por transportar substâncias dentro e fora das células. Elas são
                                             formadas por uma camada de membrana lipídica semelhante à da membrana celular, o que
@@ -329,6 +308,7 @@ const infoData = {
                                     </details>
                                     <details>
                                         <summary class="organelas">O que é a Pressão de Turgor?</summary>
+                                        <br>
                                         <p> A pressão de turgor é a força exercida pelo conteúdo interno de uma célula vegetal
                                             (principalmente a água dentro do vacúolo) contra a parede celular. Ela ocorre quando
                                             a

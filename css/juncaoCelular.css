@@ -5,6 +5,7 @@
 .juncao {
     padding: 6vw 0 6vw 0;
     text-align: center;
+    margin-bottom: 5vw;
 }
 
 .juncao div p {
@@ -48,11 +49,13 @@
 
 .juncoes-aderentes h2:first-of-type {
     margin: 0 0 0 15vw;
+    color: #EDD48E;
 }
 
 .juncoes-aderentes h2:last-of-type {
     text-align: end;
     margin: 0 15vw 0 0;
+    color: #EDD48E;
 }
 
 .juncoes-aderentes p {

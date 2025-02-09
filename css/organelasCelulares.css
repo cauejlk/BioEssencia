@@ -24,6 +24,10 @@ body{
     gap: 0.5vw;
 }
 
+.container button{
+    font-size: 2rem;
+}
+
 .scroll-container {
     display: flex;
     overflow-x: hidden;
@@ -48,6 +52,7 @@ body{
     cursor: pointer;
     white-space: nowrap;
     transition: background-color 0.3s, color 0.3s;
+    font-size: 1.4rem;
 }
 
 .scroll-container button:hover {
@@ -98,4 +103,27 @@ body{
 
 summary{
     cursor: pointer;
+}
+
+.referencias{
+    margin: 7vw;
+}
+
+.referencias h4{
+   font-size: 3.2rem;
+   margin-bottom: 2vw;
+   color: #4a6c4a;
+}
+.referencias ul li{
+    margin-top: 2vw;
+    font-size: 1.5rem;
+}
+
+.referencias ul li h5{
+font-size: 1.5rem;
+margin-bottom: 1vw;
+}
+.referencias ul li p{
+    font-size: 1.1rem;
+    margin-bottom: 1.5vw;
 }

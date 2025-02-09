@@ -18,7 +18,7 @@ body {
 }
 
 .titulo p {
-    padding: 0 14vw 18vw 14vw;
+    padding: 0 14vw 13vw 14vw;
 }
 
 /*------------------------------------
@@ -27,7 +27,7 @@ body {
 
 .ciclo-celular {
     border: 3px solid #2D6A4F;
-    padding: 7vw 3vw;
+    padding: 7vw 0vw;
     margin: 4vw 10vw 10vw 10vw;
 }
 
@@ -38,21 +38,23 @@ body {
 
 .ciclo-celular p {
     text-align: start;
-    padding: 0 15vw 2vw 15vw;
+    padding: 0 10vw 4vw 10vw;
 }
 
 /*================ Cartas das fases =====================*/
 
 .ciclo-celular .fases {
     display: flex;
-    gap: 15vw;
+    gap: 10vw;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
 
 .ciclo-celular .fases .carta {
-    width: 230px;
+    margin-right: 6vw;
+    margin-bottom: 5vw;
+    width: 250px;
     height: 250px;
     perspective: 1000px;
 }
@@ -83,12 +85,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 3vw;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .frente {
     background-color: #EDD48E;
+
 }
 
 .verso {
@@ -198,6 +201,11 @@ body {
     padding: 0;
 }
 
+.cartasColor-mitose p {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}
+
 .cartasColor-mitose p:last-child {
     color: black;
     padding: 0;
@@ -272,7 +280,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 1.5vw;
+
     position: relative;
 }
 
@@ -300,6 +308,12 @@ body {
 .cartasColor-meiose p:last-child {
     color: black;
     padding: 1vw 2vw 0;
+}
+
+.cartasColor-meiose p {
+    margin-top: 1vw;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
 }
 
 
@@ -377,6 +391,8 @@ body {
 .cartasColor-meiose2 p:last-child {
     color: black;
     padding: 1vw 2vw 0;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
 }
 
 /*======================================================== FLECHAS ==================================*/
@@ -388,6 +404,8 @@ body {
     height: 20vw;
     transition: 0.2s ease-in-out;
     margin-top: 10vw;
+    transform: scale(1);
+    font-size: 2.5rem;
 }
 
 .meiose-Cartas .arrow:hover,

@@ -3,7 +3,7 @@
 ---------------------------------*/
 section.titulo {
     text-align: center;
-    padding: 21vw 0 10vw 0; 
+    padding: 16.4vw 0 10vw 0; 
 }
 
 section.titulo h1 {
@@ -14,7 +14,7 @@ section.titulo h1 {
 section.titulo img {
     position: relative;
     margin: -23vw 0 0 0;
-    height: 50vw;
+    height: 100vh;
     width: 100%; border-bottom: 0.3vw solid rgb(199, 125, 255);
 }
 
