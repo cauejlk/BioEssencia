@@ -199,35 +199,11 @@ footer {
     padding: 1.5vw 0;
 }
 
-.referencias {
-    margin: 7vw;
+footer ol li{
+    font-size: 1.3rem
 }
 
-.referencias h4 {
-    font-size: 3.2rem;
-    margin-bottom: 2vw;
-    color: #4a6c4a;
-}
-
-.referencias ul li {
-    margin-top: 2vw;
-    font-size: 1.5rem;
-}
-
-.referencias ul li h5 {
-    font-size: 1.5rem;
-    margin-bottom: 1vw;
-    color: #3C3C3C;
-}
-
-.referencias ul li p {
-    font-size: 1.1rem;
-    margin-bottom: 1.5vw;
-    color: #C77DFF;
-}
-
-.referencias ul li a {
+footer a{
+    color: #d0a0ff;
     text-decoration: underline;
-    color: #C77DFF;
-    font-size: 1.1rem;
 }
