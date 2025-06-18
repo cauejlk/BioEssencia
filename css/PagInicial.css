@@ -59,7 +59,7 @@
     
     section.conteudos h2{
     color: var(--roxoEscuro);
-    font-size: 3.3rem;
+    font-size: 3rem;
     padding: 0 0 2vw 4vw;
     }
     
@@ -71,7 +71,7 @@
     
     section.conteudos div h3{
     padding: 3vw 0 0 0 ;
-    font-size: 2.2rem;
+    font-size: 2rem;
     }
     
     section.conteudos div p{
